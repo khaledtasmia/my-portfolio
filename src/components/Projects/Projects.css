@@ -1,0 +1,16 @@
+.project{
+    background-color: #343a40;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.structure{
+    box-shadow: 0 4px 8px 0 rgb(87, 42, 42), 0 6px 20px 0 rgb(161, 49, 49);
+    transition: transform 1s;
+}
+.structure:hover{
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}

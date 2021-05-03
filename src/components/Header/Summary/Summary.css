@@ -1,0 +1,10 @@
+.fbIcon{
+    color: white;
+    transition: color 0.3s linear;
+   -webkit-transition: color 0.3s linear;
+   -moz-transition: color 0.3s linear;
+}
+
+.fbIcon:hover {
+    color: grey
+}
