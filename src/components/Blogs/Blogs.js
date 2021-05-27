@@ -14,10 +14,10 @@ const Blogs = () => {
                         <div class="card structure" style={{ width: "18rem" }}>
                             <img style={{ height: "137px" }} src={blog1} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title text-center">Fundamental of JS</h5>
-                                <p style={{ marginTop: "36px" }} class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h5 class="card-title text-center">Basics of JavaScript</h5>
+                                <p style={{ marginTop: "36px" }} class="card-text">This blog is for giving some basic ideas of JS to beginners.</p>
                                 <div style={{ height: "20px" }} className="card-body text-center mb-1">
-                                    <button style={{ height: "40px" }} className="btn btn-danger">Read More</button>
+                                    <a href="https://khaled-tasmia33.medium.com/basics-of-javascript-a3d0d1cc85c6"><button style={{ height: "40px" }} className="btn btn-danger">Read More</button></a>
                                 </div>
                             </div>
                         </div>

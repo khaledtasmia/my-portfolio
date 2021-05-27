@@ -11,9 +11,9 @@ AOS.init();
 
 const Summary = () => {
     return (
-        <div id="summary" className="container">
-            <div className="row gy-3 mt-5 pt-5 d-flex align-items-center">
-                <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" className="col-md-4 offset-md-1">
+        <div id="summary"className="container">
+            <div className="gy-3 mt-5 pt-5 d-flex align-items-center justify-content-center">
+                <div data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
                     <h1 style={{ textShadow: "2px 2px 5px red" }} className="text-white text-center">Tasmia Khaled</h1>
                     <h6 className="text-secondary text-center">
                         Engineer | Mern Stack Developer | Programmer
@@ -26,9 +26,6 @@ const Summary = () => {
                     <div class="text-center">
                         <a href="/resumeFolder/Resume.pdf" download><button className="btn btn-danger mt-3 me-4"><FontAwesomeIcon className="me-2" icon={faFileDownload} size="1x"></FontAwesomeIcon>Download Resume</button></a>
                     </div>
-                </div>
-                <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" className="col-md-6 d-flex justify-content-center">
-                    <img style={{ width: "300px" }} src={pic1} alt="" className="img-fluid" />
                 </div>
             </div>
         </div>
